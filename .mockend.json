@@ -1,15 +1,8 @@
 {
-  "Message":"Holaaaa",
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  "name": {
+    "string": [
+      "Thor",
+      "Loki"
+    ]
   }
 }
